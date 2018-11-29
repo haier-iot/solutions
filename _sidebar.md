@@ -1,5 +1,4 @@
-* [接入U+IOT平台](README)
-* 解决方案
+* U+IOT平台接入解决方案
 	* [优家账号体系接入](zh-cn/Solutions/sl1)  
 	* [微信绑定控制](zh-cn/Solutions/sl2)  
 	* [云云账号对接](zh-cn/Solutions/sl3)
