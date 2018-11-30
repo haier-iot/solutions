@@ -2,18 +2,6 @@
 >**当前版本：** [微信绑定控制 V1.0](zh-cn/ChangeLog/sl2)   
 **更新时间：** {docsify-updated} 
 
-## 术语  
-
-
-|术语|描述|
-| ------  |----------|  
-|微信服务|海极网为智能硬件开发者提供的免费的微信连通服务|
-|AppId| 微信服务 appid |
-|AppKey| 微信服务 appkey |
-|openId| 微信用户openid|
-|clientId| U+客户端 id|
-|用户Token| U+云平台分配给第三方的安全令牌|
-
 ## 技术方案
 
 ### 整体流程  
