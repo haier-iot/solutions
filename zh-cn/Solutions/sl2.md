@@ -50,5 +50,5 @@
 
 [sl1_rjgc]:_media/_Solutions/sl2rjgc.png
 
-[WeChatProcess]:(http://developer.haigeek.com:7900/developercenter/static/index.html#/devloperTools/)
-[WeChatConfigured]:(http://developer.haigeek.com:7900/developercenter/static/index.html#/devloperTools/)
+[WeChatProcess]:(http://developer.haigeek.com:7900/developercenter/static/index.html#/devloperTools)
+[WeChatConfigured]:(http://developer.haigeek.com:7900/developercenter/static/index.html#/devloperTools)
