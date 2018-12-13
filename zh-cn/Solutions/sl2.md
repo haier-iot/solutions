@@ -29,6 +29,9 @@
 ![软件构成图片][sl1_rjgc]  
 
 
+[微信服务开通流程][WeChatProcess]  
+[微信配置绑定说明][WeChatConfigured]  
+
 ### 设备管理  
 
 设备管理udse服务联系优家技术支持人员。
@@ -46,3 +49,6 @@
 [sl1_ztfa]:_media/_Solutions/sl2ztfa.png  
 
 [sl1_rjgc]:_media/_Solutions/sl2rjgc.png
+
+[WeChatProcess]:http://developer.haigeek.com:7900/developercenter/static/index.html#/devloperTools/
+[WeChatConfigured]:http://developer.haigeek.com:7900/developercenter/static/index.html#/devloperTools/
