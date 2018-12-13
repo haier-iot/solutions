@@ -29,8 +29,8 @@
 ![软件构成图片][sl1_rjgc]  
 
 
-[微信服务开通流程][WeChatProcess]  
-[微信配置绑定说明][WeChatConfigured]  
+&nbsp;&nbsp;&nbsp;&nbsp;[微信服务开通流程][WeChatProcess]  
+&nbsp;&nbsp;&nbsp;&nbsp;[微信配置绑定说明][WeChatConfigured]  
 
 ### 设备管理  
 
@@ -50,5 +50,5 @@
 
 [sl1_rjgc]:_media/_Solutions/sl2rjgc.png
 
-[WeChatProcess]:http://developer.haigeek.com:7900/developercenter/static/index.html#/devloperTools/
-[WeChatConfigured]:http://developer.haigeek.com:7900/developercenter/static/index.html#/devloperTools/
+[WeChatProcess]:(http://developer.haigeek.com:7900/developercenter/static/index.html#/devloperTools/)
+[WeChatConfigured]:(http://developer.haigeek.com:7900/developercenter/static/index.html#/devloperTools/)
