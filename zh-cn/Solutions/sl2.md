@@ -219,7 +219,9 @@ Url 在海极网对应的字段名称为“微信硬件回调地址”。Token �
 
 ![修改域名图片][ModifyDomain]
 
+### 配置绑定  
 
+![配置绑定图片][ConfigBind]
 
 ### 设备管理  
 
@@ -266,3 +268,4 @@ Url 在海极网对应的字段名称为“微信硬件回调地址”。Token �
 [operation2sc]:_media/_Solutions/operation2sc.png 
 [ModifyMenu]:_media/_Solutions/ModifyMenu.png
 [ModifyDomain]:_media/_Solutions/ModifyDomain.png
+[ConfigBind]:_media/_Solutions/ConfigBind.jpg
