@@ -6,9 +6,30 @@
 
 ### 整体流程  
 
+?> 基于微信公众号进行硬件设备的接入、控制。
+支持AirKiss的设备，设置进入配网模式，微信用户扫描设备的品类二维码，微信进行配网绑定设备，海尔U+的海极网微信服务自动监听微信绑定消息把微信用户与设备接入U+云平台，接下来通过海尔U+IOT的设备管理服务、设备数据订阅等完成设备具体的设备控制操作。
+
+
 ![整体方案图片][sl1_ztfa]  
 
 
+### 业务架构
+
+**开通**
+微信公众服务号开通，认证通过，启用设备功能，产生产品的二维码。
+海极网微信服务开通，详见“微信服务接入文档”。
+
+**设备开发**
+若是新开发要接入U+IOT平台的设备，请按海极网的硬件开发流程进行设计开发。选择使用支持微信AirKiss协议的U+IOT的物联模块。
+
+**设备绑定**
+设备开启配网模式后，通过微信用户扫码进行微信配网绑定。
+
+**设备控制**
+通过微信菜单跳转Url方式发起调用开发的设备控制H5页面。H5页面后台服务封装U+IOT平台的设备管理服务（uds标准版、udse企业版）
+
+
+![业务架构图片][sl2_ywjg] 
 
 
 ## 服务开通  
@@ -239,6 +260,8 @@ Url 在海极网对应的字段名称为“微信硬件回调地址”。Token �
 [^-^]:常用图片注释
 [sl1_ztfa]:_media/_Solutions/sl2ztfa.png  
 [sl1_rjgc]:_media/_Solutions/sl2rjgc.png
+[sl2_ywjg]:_media/_Solutions/sl2ywjg.png
+
 
 [MyProduct]:http://developer.haigeek.com:7900/developercenter/static/index.html#/
 [OpenCenter]:http://developer.haigeek.com:7900/developercenter/static/index.html#/apiStore/storeServices////
