@@ -7,7 +7,7 @@
 
 	* [微信绑定控制](zh-cn/Solutions/sl2)  
 
-	* [云云账号对接](zh-cn/Solutions/sl3)
+	* [云云对接](zh-cn/Solutions/sl3)
 
 	* [海尔账号Oauth授权方式](zh-cn/Solutions/sl4)  
 
