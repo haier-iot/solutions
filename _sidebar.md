@@ -9,7 +9,7 @@
 
 	* [云云对接](zh-cn/Solutions/sl3)
 
-	* [海尔账号Oauth授权方式](zh-cn/Solutions/sl4)  
+	* [海尔账号Oauth授权](zh-cn/Solutions/sl4)  
 
 	* [软网关对接](zh-cn/Solutions/sl5)  
 
