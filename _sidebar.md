@@ -15,4 +15,8 @@
 
 	* [硬网关对接](zh-cn/Solutions/sl6) 
 
+	* [APP设备功能开发](zh-cn/Solutions/sl7) 
+	
+
+
 
