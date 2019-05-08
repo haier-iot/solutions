@@ -1,5 +1,5 @@
 
->**当前版本：** [软网关对接方案 V1.0](zh-cn/ChangeLog/sl5)   
+>**当前版本：** [云网关对接方案 V1.0](zh-cn/ChangeLog/sl5)   
 **更新时间：** {docsify-updated} 
 
 

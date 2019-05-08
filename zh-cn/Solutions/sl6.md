@@ -1,5 +1,5 @@
 
->**当前版本：** [硬网关对接 V1.0](zh-cn/ChangeLog/sl6)   
+>**当前版本：** [硬件网关对接 V1.0](zh-cn/ChangeLog/sl6)   
 **更新时间：** {docsify-updated} 
 
 

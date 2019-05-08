@@ -11,9 +11,9 @@
 
 	* [海尔账号Oauth授权](zh-cn/Solutions/sl4)  
 
-	* [软网关对接](zh-cn/Solutions/sl5)  
+	* [云网关对接](zh-cn/Solutions/sl5)  
 
-	* [硬网关对接](zh-cn/Solutions/sl6) 
+	* [硬件网关对接](zh-cn/Solutions/sl6) 
 
 	* [ToB用户APP开发指南](zh-cn/Solutions/sl7) 
 	
