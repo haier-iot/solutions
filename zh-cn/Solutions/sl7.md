@@ -1,5 +1,5 @@
 
->**当前版本：** [ToB用户APP开发指南 V1.0](zh-cn/ChangeLog/sl7)   
+>**当前版本：** [ToB用户开发APP设备功能指南 V1.0](zh-cn/ChangeLog/sl7)   
 **更新时间：** {docsify-updated} 
 
 
