@@ -15,7 +15,7 @@
 
 	* [硬件网关对接](zh-cn/Solutions/sl6) 
 
-	* [ToB用户APP开发指南](zh-cn/Solutions/sl7) 
+	* [ToB用户开发APP设备功能指南](zh-cn/Solutions/sl7) 
 	
 
 
