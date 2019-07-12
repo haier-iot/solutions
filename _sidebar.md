@@ -1,4 +1,5 @@
 * [快速了解](README)
+* [接入设备指南](zh-cn/Solutions/sl7) 
 
 * 技术解决方案
 	* [软件网关](zh-cn/Solutions/sl5)  
@@ -17,7 +18,7 @@
 
 	* [微信绑定控制](zh-cn/Solutions/sl2)  
 
-	* [ToB用户开发APP设备功能指南](zh-cn/Solutions/sl7) 
+
 
 
 
