@@ -4,16 +4,10 @@
 
 * 整体解决方案
 	* 地产前装/酒店公寓
-
 		* [软件网关](zh-cn/Solutions/sl5)  
-
-
 		* [云云对接](zh-cn/Solutions/sl3)
-
-		
 	* 共享/租赁
 		* [硬件网关对接](zh-cn/Solutions/sl6) 
-
 * 基础服务接入方案
 	* [海尔账号Oauth授权](zh-cn/Solutions/sl4)  
 
