@@ -1,46 +1,61 @@
 
->**当前版本：** [硬件网关对接 V1.0](zh-cn/ChangeLog/sl6)   
-**更新时间：** {docsify-updated} 
+!> **更新时间**：{docsify-updated}  
 
 
 
-## 硬网关对接方案
+### 方案介绍
 
-![整体方案图片][sl1_ztfa]  
+![整体方案图片][sl6_ztfa]  
 
-> 第三方路由器作为中控系统，第三方路由器通过集成ugw，相当于APP接入U+ IOT平台。实现U+ IOT云平台对路由器认证、秘钥交换、设备激活的控制，同时可以获取设备状态上报、设备告警上报等运营数据的收集。  
-设备绑定使用第三方路由主动调用绑定，控制通过第三方云下发到第三方路由代理控制。   
-此方案既满足了第三方的用户安全考虑，也实现了快速的互联简化APP的开发。   
-
-
-
-
-**软件构成：**  
-
-?> 1、主要交互由第三方APP发起，经路由中转协议转换，由ugw实际控制设备；   
- 2、	第三方路由器需要集成ugw，从而实现认证、绑定、配网、操控、协议转换等操作；      
- 3、	U+ IOT提供企业账号，第三方路由使用对应账号访问U+ IOT平台。    
+> 合作方路由器网关作为中控系统，集成海尔U+ 的设备端SDK（SmartDevice SDK）的设备控制功能，相当于APP接入海尔U+ IOT平台，实现设备入网功能、设备搜索功能、设备控制功能、接收状态变化上报功能、接收报警信息上报功能等。
   
 
+> 实现效果：用户通过合作伙伴设备（比如：路由器）的APP，控制管理海尔设备。
 
 
 
+### 方案设计
+
+
+![方案设计][sl6_rjgc] 
+
+
+如软件构成图，说明如下：
+1、	所有的交互操作由合作方APP发起，经路由器中的双方协议转换，由SmartDevice SDK实际控制设备；
+2、	红色部分是需要合作方实现的，包括合作方App、协议转换、账号管理服务、授权激活管理、以及集成SmartDevice SDK。
 
 
 
+### 功能流程
+
+**路由登录认证**
+
+![路由登录认证][sl6_rz] 
+
+说明：
+（1）clientKey、clientSecret由合作方分配，用于合作方云验证请求的合法来源；
+（2）AppId,AppKey 由U+云分配，用于U+云验证请求的合法来源；
+（3）U+云到合作云认证主要目的是保证路由器是合作伙伴授权的（由合作方路由器到合作伙伴云认证），并且获取合作伙伴路由器代表的用户ID（openId），openId将用于后面绑定设备的用户标识，用于U+云标识一个用户。
+
+登录认证作用：
+（1） 设备添加时，确认用户的有效身份；
+（2） SmartDevice SDK 与U+ 云 交互时的身份校验；
+
+登录 认证 主要流程如下：
+（1） 路由器启动认证流程；
+（2） 合作方路由器到云认证（clientKey、gw_id、gw_code）,gw_id为路由器的唯一标识 ,gw_code为路由器的gw_id对应的key；
+（3） 合作方云返回（appId、appKey、code）,code为 10分钟有效期的一次性授权码。
+（4） 合作方路由器调用U+云的认证（appId、appKey、code） ,U+云调用合作方的认证接口（clientKey、clientSecret、code），合作方云对code进行认证，返回openId。
+（5） U+云生成access_token，作为后续访问U+云 服务的认证token。
+（6） U+云向 合作方路由器返回 access_token。
 
 
 <!-- 
 ## 功能流程 &emsp;
 -->
 
-
-
-
-
-
-
 [^-^]:常用图片注释
-[sl1_ztfa]:_media/_Solutions/sl6ztfa.png  
+[sl6_ztfa]:_media/_Solutions/sl6ztfa.png  
 
-[sl1_rjgc]:_media/_Solutions/sl6rjgc.png
+[sl6_rjgc]:_media/_Solutions/sl6rjgc.png
+[sl6_rz]:_media/_Solutions/sl6rz.png
