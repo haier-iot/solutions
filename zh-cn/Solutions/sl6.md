@@ -61,12 +61,18 @@
 （6） U+云向 合作方路由器返回 access_token。
 
 
-<!-- 
-## 功能流程 &emsp;
--->
+
+
+### 工作事项
+
+![路由登录认证][sl6_gzsx] 
+
+
+
 
 [^-^]:常用图片注释
 [sl6_ztfa]:_media/_Solutions/sl6ztfa.png  
 
 [sl6_rjgc]:_media/_Solutions/sl6rjgc.png
 [sl6_rz]:_media/_Solutions/sl6rz.png
+[sl6_gzsx]:_media/_Solutions/sl6gzsx.png
