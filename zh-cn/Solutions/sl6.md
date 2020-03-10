@@ -34,19 +34,29 @@
 
 说明：
 （1）clientKey、clientSecret由合作方分配，用于合作方云验证请求的合法来源；
+
 （2）AppId,AppKey 由U+云分配，用于U+云验证请求的合法来源；
+
 （3）U+云到合作云认证主要目的是保证路由器是合作伙伴授权的（由合作方路由器到合作伙伴云认证），并且获取合作伙伴路由器代表的用户ID（openId），openId将用于后面绑定设备的用户标识，用于U+云标识一个用户。
 
 登录认证作用：
+
 （1） 设备添加时，确认用户的有效身份；
+
 （2） SmartDevice SDK 与U+ 云 交互时的身份校验；
 
 登录 认证 主要流程如下：
+
 （1） 路由器启动认证流程；
+
 （2） 合作方路由器到云认证（clientKey、gw_id、gw_code）,gw_id为路由器的唯一标识 ,gw_code为路由器的gw_id对应的key；
+
 （3） 合作方云返回（appId、appKey、code）,code为 10分钟有效期的一次性授权码。
+
 （4） 合作方路由器调用U+云的认证（appId、appKey、code） ,U+云调用合作方的认证接口（clientKey、clientSecret、code），合作方云对code进行认证，返回openId。
+
 （5） U+云生成access_token，作为后续访问U+云 服务的认证token。
+
 （6） U+云向 合作方路由器返回 access_token。
 
 
