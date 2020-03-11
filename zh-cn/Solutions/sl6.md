@@ -61,11 +61,25 @@
 （6） U+云向 合作方路由器返回 access_token。
 
 
+**SmartDevice SDK 流程简图**
+![流程简图][sl6_sdklc] 
 
+
+【**注意**】：
+
+（1） 请按照如上流程进行初始化，直到添加设备完成；
+
+（2）使用全功能库时，只需调用用户侧的设置日志接口， 不需要重复调用设备侧的设置日志接口；
+
+（3）在任何回调函数内，禁止调用任何同步接口，以免阻塞线程导致SDK死锁；
+
+（4）设备网卡就绪后，再执行smartdeviceSDK的初始化 ；
+
+（5）对于初始化接口、添加设备接口、 设置 token 接口和订阅执行失败时，建议进行再次调用直至成功为止；
 
 ### 工作事项
 
-![路由登录认证][sl6_gzsx] 
+![工作事项][sl6_gzsx] 
 
 
 
@@ -76,3 +90,4 @@
 [sl6_rjgc]:_media/_Solutions/sl6rjgc.png
 [sl6_rz]:_media/_Solutions/sl6rz.png
 [sl6_gzsx]:_media/_Solutions/sl6gzsx.png
+[sl6_sdklc]:_media/_Solutions/sl6_sdklc.png
