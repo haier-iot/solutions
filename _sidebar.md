@@ -8,11 +8,6 @@
 	* [云账号对接方案](zh-cn/Solutions/sl5)  
 	* [企业账号方案](zh-cn/Solutions/sl3)
 
-* 整体解决方案
-	* [地产前装/酒店公寓](zh-cn/business/hotel)   
-	* [共享/租赁](zh-cn/business/Device-sharing)  
-		
-
 * 服务接入方案
 	* [海尔账号Oauth授权](zh-cn/Solutions/sl4)  
 
