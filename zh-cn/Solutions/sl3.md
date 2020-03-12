@@ -1,7 +1,5 @@
 
->**当前版本：** [云云对接方案 V1.0](zh-cn/ChangeLog/sl3)   
-**更新时间：** {docsify-updated} 
-
+!> **更新时间**：{docsify-updated}  
 
 
 
@@ -39,27 +37,9 @@ U+ IOT为合作方开发方提供UWS API、uSDK开发套件，帮助快速实现
 
 
 
-### 方案应用
+### 工作事项
 
-?>  方案应用于智能公寓、智能酒店、智能设备租赁商、智能无人超市等具备较强研发能力，有自己的云平台、用户系统及APP，希望自己的云平台对设备进行集中管理的合作方。
-
-
-
- 
-
-
-
-
-
-
-
-
-<!-- 
-## 功能流程 &emsp;
--->
-
-
-
+![工作事项][sl3_gzsx] 
 
 
 
@@ -69,3 +49,4 @@ U+ IOT为合作方开发方提供UWS API、uSDK开发套件，帮助快速实现
 [sl3zx]:_media/_Solutions/sl3zx.png
 
 [sl3_rjgc]:_media/_Solutions/sl3rjgc.png
+[sl3_gzsx]:_media/_Solutions/sl3_gzsx.png
