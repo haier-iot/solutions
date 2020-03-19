@@ -6,7 +6,7 @@
 
 	* [硬件网关方案](zh-cn/Solutions/sl6) 
 	* [云账号对接方案](zh-cn/Solutions/sl5)  
-	* [企业账号方案](zh-cn/Solutions/sl3)
+	* [厂商级设备授权方案](zh-cn/Solutions/sl3)
 
 * 服务接入方案
 	* [海尔账号Oauth授权](zh-cn/Solutions/sl4)  
